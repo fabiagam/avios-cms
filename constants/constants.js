@@ -4,7 +4,11 @@ module.exports = {
   PRODUCT: {
     NEWLY_ADDED: "Product with its variants added successfully",
     UNABLE_TO_ADD: "Unable to add new product to database",
+<<<<<<< HEAD
     NOT_FOUND: "Sorry, unable to retreive the product record",
+=======
+    NOT_FOUND: "Sorry, No products to display",
+>>>>>>> 7546658 (Completed application code)
     FOUND_RECORD: "Retreived product record successfully",
     UPDATED_SUCCESSFULLY: "Product record updated successfully",
     UNABLE_TO_UPDATE:

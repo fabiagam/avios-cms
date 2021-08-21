@@ -1,6 +1,8 @@
 {
-     extends: [
-      "eslint:recommended",
-      "prettier" // Make sure this is the last
-    ],
- }
+  "extends": ["eslint:recommended", "prettier"],
+  "plugins": ["react-hooks"],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}

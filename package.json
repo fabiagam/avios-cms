@@ -5,11 +5,15 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "build": "cd client && npm install && npm run build",
     "lint": "npx eslint src test",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier src test --check",
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run prettier:fix && npm run lint:fix"
+  },
+  "engines": {
+    "node": "14.17"
   },
   "keywords": [
     "nodejs",
@@ -40,7 +44,6 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "eslint": "^7.0.0",
     "eslint-config-prettier": "^8.3.0",
     "nodemon": "^2.0.12"
   }
